@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: "work sans";
+}
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.header-div {
+  background-color: black;
+  height: 130px;
+  /* width: 1920px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-nav ul {
+  display: flex;
+  gap: 69px;
+  color: white;
+  font-size: 24px;
+  margin-left: -120px;
+  /* margin-right: 760px; */
+}
+.section-1 {
+  background-image: url("/N9-homework/assets/img/background-pic.png");
+  background-size: cover;
+  background-position: center;
+  height: 1080px;
+  /* width: 100vw; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-1 h1 {
+  font-size: 82px;
+  color: #fff;
+  padding-top: 242px;
+}
+.section-1 p {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 155px;
+}
+.section1-searching {
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  height: 71px;
+  width: 463px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 23.5px;
+}
+.searching-img {
+  display: flex;
+}
+.section2 {
+  margin-top: 245px;
+  /* margin-left: 250px; */
+}
+.section2 h1 {
+  font-size: 75px;
+  margin-left: 117px;
+}
+.section-2boxes {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 81px;
+}
+.section2-box {
+  height: 388px;
+  width: 390px;
+  border: 2px solid #dcb47a;
+  border-color: #dcb47a;
+  text-align: center;
+}
+.section2-box img {
+  margin-top: 30px;
+}
+.box-price {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  /* padding-left: -41px; */
+  align-items: center;
+  gap: 179px;
+  align-items: end;
+}
+.section2-box h4 {
+  padding-top: 17px;
+  display: flex;
+  padding-left: 41px;
+}
+
+.section3 h1 {
+  color: #081323;
+  font-size: 64px;
+  margin-left: 117px;
+  margin-top: 150px;
+}
+.section3-div1 {
+  color: #dcb47a;
+  font-size: 64px;
+  background-image: url(/N9-homework/assets/img/living\ room.png);
+  background-size: cover;
+  height: 645px;
+  width: 738px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 117px;
+  margin-top: 67px;
+}
+.section3-div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 20px;
+}
+.section3-divs {
+  display: flex;
+  align-items: end;
+}
+.footer-div {
+  background-color: #081323;
+  height: 378px;
+  text-align: center;
+  margin-top: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-div h1 {
+  color: #fff;
+  font-size: 62px;
+  padding-top: 71px;
+}
+.footer-div p {
+  color: #fff;
+  font-size: 20.94px;
+  padding-top: 9px;
+}
+.view-now {
+  margin-top: 37px;
+  height: 64.39116668701172px;
+  width: 205.1908416748047px;
+  border-radius: 60px;
+  background-color: #dcb47a;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  align-items: center;
+}
+.brown {
+  color: #dcb47a;
+}
